@@ -35,13 +35,9 @@ h3{font-size: 25px;}
       
 }
 
-.containerBarraPapa1{
-  display: flex;
-
-}
-
-.containerBarraPapa2{
+.containerPapa  {
   width: 90%;
+  padding-bottom: 20px;
 }
 
 /* Switch Start */
@@ -122,8 +118,6 @@ h3{font-size: 25px;}
 
 .header h1{font-family: "BBT-Regular", Roboto, sans-serif;}
 
-.nav a{text-decoration: none;}
-
 .nomePapa, .tipoDocumento, .nomeDocumento, .documento, .descricaoDocumento, h3{ text-align: center;}
 
 .nomeDocumento, .links a {color:#daa520;}
@@ -135,6 +129,8 @@ h3{font-size: 25px;}
 
 .nomeDocumento, .data{font-style: italic;}
 
+.nav a{text-decoration: none;}
+
 .nav{
   width: 100%;
   height: 75px;
@@ -144,6 +140,11 @@ h3{font-size: 25px;}
   align-items: center;
   font-size: 37px;
   /* border: 2px solid red; */
+}
+
+.nav .switch-wrapper{
+  display: flex;
+  flex-direction: row;
 }
 
 .nav .links{
@@ -180,7 +181,7 @@ p {
   flex-direction: row;
   justify-content: center;
   gap:20px;
-  height: 1000px;
+  margin-top: 20px;
 }
 
 .documentosRecentes, .documentosRelevantes{
