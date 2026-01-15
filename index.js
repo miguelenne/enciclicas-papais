@@ -76,7 +76,7 @@ const textoDocumento = document.querySelector(".textoDocumento");
 const nome = document.querySelector(".nomePapa");
 const tipo = document.querySelector(".tipoDocumento");
 const descricao = document.querySelector(".descricaoDocumento");
-const header = document.querySelector(".header");
+const header = document.querySelector("header");
 const textoIndex = document.querySelector(".documentosRecentes");
 const alertaTraducao = document.querySelector(".alertaTraducao");
 readModeSwitch.addEventListener("change", modoLeitura)
