@@ -216,6 +216,11 @@ p {
 
 .barraPapa li{font-size: 23px;}
 
+.alertaTraducao{ 
+  padding-left: 900px;
+  padding-right: 900px;                
+}
+
 .listas{
         margin-left:20px;
         display: flex;
